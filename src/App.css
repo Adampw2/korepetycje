@@ -1,0 +1,10 @@
+/* hide scrollbar for chrome, safari and opera */
+.Container::-webkit-scrollbar {
+  display: none;
+  overflow: none;
+}
+
+.Container {
+  background-color: black;
+  z-index: 10;
+}

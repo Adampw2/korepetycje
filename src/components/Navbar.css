@@ -1,0 +1,54 @@
+.navbar {
+   background-color: #002844;
+   display: flex;
+   margin: 0;
+   padding: 0 0.8vw;
+   align-items: baseline;
+   position: fixed;
+   width: 100%;
+   top: 0;
+   left: 0;
+   z-index: 1;
+   transition: top 0.3s ease-in-out;
+}
+
+.show {
+   top: 0;
+}
+
+.hide {
+   top: -80px;
+}
+
+.navList {
+   display: flex;
+   list-style-type: none;
+   font-size: 1.2vw;
+   padding: 0 0.8vw;
+   gap: 0.5vw;
+   align-items: baseline;
+}
+
+.navLi {
+   display: flex;
+   padding: 1.9vw 1vw;
+   justify-content: flex-start;
+}
+
+
+a {
+   text-decoration: none;
+   color: #EAEAEE;
+}
+
+
+
+.navTitle {
+   font-weight: 600;
+   color: #fff;
+   font-size: 2vw;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
